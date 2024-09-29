@@ -1,0 +1,374 @@
+@import "../../assets/styles/variables";
+
+.ctn__history {
+  background-color: $background;
+  height: 100vh;
+}
+
+.ctn__progress {
+  display: flex;
+  flex-direction: column;
+  margin-top: 88px;
+  margin-left: 85px;
+}
+
+.ctn__description {
+  display: flex;
+  align-items: center;
+}
+
+.ctn__description span {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #494F66;
+}
+
+.disabled {
+  color: #A3ABCC !important;
+}
+
+.progress {
+  position: relative;
+  right: -11px;
+}
+
+.quote-form {
+  border: 1px solid $secondaryColor;
+}
+
+.background__web {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  width: 33%;
+}
+
+.ctn__logo {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin-top: 122px !important;
+}
+
+.ctn__description .title1 {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.ctn__description .title2 {
+  font-size: 36px;
+}
+
+.ctn__description .title2 span {
+  color: $secondaryColor;
+}
+
+.ctn__description .title3 {
+  font-size: 36px;
+  color: $secondaryColor;
+  margin-bottom: 17px;
+}
+
+.ctn__description .title4 {
+  font-size: 14px;
+  margin-bottom: 11px;
+  width: 86%;
+}
+
+.ctn__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__dataCar {
+  width: 60%;
+}
+
+.ctn__input {
+  margin: 10px 0px;
+}
+
+.ctn__actionBtn {
+  margin: 10px 0px
+}
+
+.form__title {
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ctn__general__terms {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 19px;
+  color: #676F8F;
+}
+
+.ctn__terms {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.description__mark {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.ctn__brand {
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+
+.message__error {
+  font-size: 12px;
+  margin-top: 9px;
+  color: $secondaryColor;
+}
+
+.ctn__carPlace {
+  margin-top: 10px;
+}
+
+.logo__mobile {
+  display: none;
+}
+
+.ctn__iconBack {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ctn__iconBack span {
+  font-size: 10px;
+  color: $borderColor;
+  margin-left: 10px;
+}
+
+.ctn__name {
+  margin: 20px 0px;
+}
+
+.ctn__name span {
+  font-size: 25px;
+}
+
+.name__red {
+  color: red !important;
+}
+
+.description__size {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: $borderColor;
+}
+
+.ctn__help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 136px;
+  justify-content: flex-start;
+}
+
+.description__help {
+  font-size: 12px;
+  border-bottom: solid 1px gray;
+  width: 37%;
+  padding-bottom: 19px;
+}
+
+.ctn__imgHelp {
+  display: flex;
+  margin-top: 18px;
+}
+
+.ctn__descHelp {
+  font-size: 12px;
+  width: 47%;
+}
+
+.btn__clicHere {
+  margin-top: 10px;
+  font-size: 10px;
+  color: $optionalColor;
+}
+
+.ctn__flexImg {
+  flex: 1;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .ctn__history {
+    display: none;
+  }
+  .form__dataCar {
+    width: 84%;
+  }
+}
+
+
+
+
+/**************************UNO*****************************/
+.ctn_container{
+  padding-top: 55px;
+  align-items: center;
+  background: #F7F8FC;
+}
+.ctn__description {
+  text-align: center;
+  width: 100%;
+  padding-top: 40px;
+}
+.ctn__form {
+  //background-color: $background;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.progres {
+  display: flex; /* Alinea los iconos y textos en una fila */
+  align-items: center; /* Centra verticalmente */
+}
+.progres__icon {
+  padding-left: 110px;
+  font-family: $fontFamily;
+}
+.progres__text {
+  padding-left: 10px;
+  font-family: $fontFamily;
+  //color: $background;
+}
+.iconContainer {
+  padding-left: 5px;
+  border: 2px solid red; /* Borde alrededor del icono */  
+}
+.textContainer {
+  border: 2px solid red; /* Borde alrededor del texto */
+}
+/**************************UNO*****************************/
+
+
+/**************************DOS*****************************/
+
+.return {
+  display: flex; /* Alinea los iconos y textos en una fila */
+  align-items: center; /* Centra verticalmente */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.return .span {
+  padding-left: 20px;
+  font-size: 12px;
+  font-family: $fontFamily;
+  color: $background;
+}
+.datos {
+  display: flex; /* Alinea los iconos y textos en una fila */
+  align-items: center; /* Centra verticalmente */
+  padding-top: 10px;
+}
+.datos .name {
+  //color: $background;
+  font-size: 40px;
+  font-family: $fontFamily;
+  margin: 0;
+}
+.datos .span__name {
+  //color: $background;
+  font-size: 40px;
+  font-family: $fontFamily;
+}
+.span_text {
+  font-family: $fontFamily;
+  //color: $background;
+}
+
+
+.datos_otros {
+  display: flex; 
+  align-items: center; /* Centra verticalmente */
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px #C5CBEE;
+}
+
+.datos_input {
+  display: flex; 
+  align-items: center; /* Centra verticalmente */
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.datos_radio {
+  //display: flex; 
+  align-items: center; /* Centra verticalmente */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: $fontFamily;
+  //color: $primaryColor;
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  justify-content: space-between; /* Espacio entre los dos divs */
+  align-items: center; /* Centra los elementos verticalmente */
+  padding: 10px; /* Espacio opcional */
+}
+
+.datos_radio div {
+  display: flex; /* Flex para el contenido dentro de cada div */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.datos_radio div:last-child {
+  gap: 10px; /* Espacio entre los radios */
+}
+
+.line {
+  width: 100%; /* O el ancho que desees */
+  height: 2px; /* Altura de la línea */
+  background-color: #E4E8F7; /* Color de la línea */
+  margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+
+
+
+/**************************DOS*****************************/
+
+
+
+
+@media screen and (max-width: 700px) {
+
+
+  /**************************UNO*****************************/
+  .ctn__form {
+    background-color: #fff;
+  }
+  .progres {
+    display: flex;               
+    align-items: center;        
+    justify-content: space-evenly; 
+    margin: 2px 0;            
+  }  
+  .progres span {
+    margin: 0 2px;            
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+  }
+  /**************************UNO*****************************/
+
+
+
+
+}

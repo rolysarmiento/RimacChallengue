@@ -1,0 +1,153 @@
+@import "../../assets/styles/variables";
+
+
+.quote-form {
+  border: 1px solid $secondaryColor;
+}
+
+.background__web {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  width: 33%;
+}
+
+.ctn__logo {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin-top: 122px !important;
+}
+
+.ctn__description {
+  margin-top: 39px;
+  
+}
+
+.ctn__description .title1 {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.ctn__description .title2 {
+  font-size: 36px;
+}
+
+.ctn__description .title2 span{
+  color: $secondaryColor;
+}
+
+.ctn__description .title3 {
+  font-size: 36px;
+  color: $secondaryColor;
+  margin-bottom: 17px;
+}
+
+.ctn__description .title4 {
+  font-size: 14px;
+  margin-bottom: 11px;
+  width: 86%;
+}
+        
+.ctn__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 26%;
+}
+
+.ctn__input {
+  margin: 10px 0px;
+}
+
+.ctn__actionBtn {
+  margin: 10px 0px
+}
+
+.form__title {
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ctn__general__terms {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 19px;
+  color: #676F8F;
+}
+
+.ctn__terms {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.description__mark {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.ctn__document {
+  display: flex;
+  width: 108%;
+}
+
+.message__error {
+  font-size: 12px;
+  margin-top: 9px;
+  color: $secondaryColor;
+}
+
+.ctn__carPlace {
+  margin-top: 10px;
+}
+
+.logo__mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 74%;
+    margin-bottom: 35px;
+  }
+
+  .background__web {
+    display: none;
+  }
+
+  .logo__web {
+    display: none;
+  }
+
+  .ctn__logo {
+    margin-top: 67px !important;
+    padding-left: 52px !important;
+    padding-bottom: 50px !important;
+    background-color: #F7F8FC;
+    margin-bottom: 45px !important;
+    align-items: flex-start !important;
+  }
+
+  .title2, .title3 {
+    font-size: 25px !important;
+  }
+
+  .title4 {
+    font-size: 13px !important;
+    width: 59% !important;
+    color: #676F8F;
+  }
+
+  .logo__mobile {
+    display: inline;
+    position: absolute;
+    right: 0;
+  }
+}

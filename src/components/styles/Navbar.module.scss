@@ -1,0 +1,56 @@
+@import "../../assets/styles/variables";
+
+.ctn__logo {
+  position: absolute;
+  top: 21px;
+  left: 90px;
+}
+
+.ctn__phone {
+  position: absolute;
+  right: 90px;
+  top: 21px;
+  display: flex;
+}
+
+.description {
+  margin-right: 17px;
+  font-size: 12px;
+}
+
+.ctn__phone a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.callUs {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .ctn__logo {
+    position: absolute;
+    top: 21px;
+    left: 23px;
+  }
+
+  .ctn__phone {
+    position: absolute;
+    right: 31px;
+    top: 21px;
+    display: flex;
+  }
+
+  .ctn__phone a {
+    display: none;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .callUs {
+    display: inline;
+    color: $optionalColor
+  }
+}
